@@ -40,16 +40,34 @@
     "footer footer footer footer" */
 
 
-    /* note create more mini and side */
+   
     ;
 }
 
-.header{
+/* .header{
     font-weight: bold;
     font-size: 1.7rem;
     background: blue;
     color: chartreuse;
     grid-area: header;
+} */
+
+.global-message{
+    /* font-weight: bold;
+    font-size: 1.7rem; */
+    background: rgb(9, 255, 0);
+    padding: 10px;
+    grid-area: header
+}
+
+.global-content{
+    display: grid;
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+}
+
+.social > i{
+    margin-left: 10px;
 }
 
 .sports-info{
