@@ -70,9 +70,17 @@
     margin-left: 10px;
 }
 
-.sports-info{
+.nav-bar{
     background: radial-gradient(red,blue);
     grid-area: info;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    grid-area: nav;
 }
 
 .main-article{
